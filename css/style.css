@@ -85,6 +85,55 @@ header nav a:hover {
 
 /*infoGroup*/
 
+.infoGroup-title, .infoGroup-searchBar, .infoGroup-filterBar, .infoGroup-infoBar {
+    margin-bottom: 2rem;
+}
+
+.infoGroup-title h2 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+}
+
+.infoGroup-title p {
+    margin-top: 0;
+    font-size: 0.9rem;
+}
+
+.infoGroup-searchBar {
+    display: flex;
+    align-items: baseline;
+}
+
+.locationDot {
+    background-color: #F2F2F2;
+    color: black;
+    padding: 0.75rem 0.9rem;
+    border-radius: 10px 0 0 10px; 
+}
+
+#search {
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    text-align: center;
+    padding: 0.65rem 0.9rem;
+    border: #F2F2F2 1px solid;
+}
+
+.buttonTxt {
+    background-color: #0065FC;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 10px 10px 0;
+    padding: 0.75rem 0.9rem;
+}
+
+.buttonLogo {
+    display: none;
+}
+
 .infoGroup-filterBar {
     display: flex;
     align-items: baseline;
@@ -92,7 +141,7 @@ header nav a:hover {
 
 .filterBar-title p {
     font-weight: bold;
-    font-size: 0.9rem;
+    font-size: 0.95rem;
 }
 
 .filterBar-filters {
@@ -122,10 +171,21 @@ header nav a:hover {
     font-size: 0.9rem;
 }
 
+.infoGroup-infoBar {
+    display: flex;
+    align-items: baseline;
+}
+
 .infoGroup-infoBar i {
     border: #F2F2F2 1px solid;
-    padding: 8px;
+    padding: 6px 10px;
     border-radius: 50px;
+    font-size: 0.7rem;
+}
+
+.infoGroup-infoBar p {
+    font-size: 0.9rem;
+    margin-left: 0.6rem;
 }
 
 /****** Hebergements And Populaires ***********/
