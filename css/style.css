@@ -224,6 +224,11 @@ header nav a:hover {
     justify-content: space-between;
 }
 
+.hebergements-cards a {
+    text-decoration: none;
+    color: black;
+}
+
 .hebergements-cards .card {
     margin-top: 33px;
 }
@@ -327,8 +332,14 @@ header nav a:hover {
     justify-content: space-between;
 }
 
-.activite-cards .card {
+.activite-cards a {
+    text-decoration: none;
+    color: black;
     width: 23%;
+}
+
+.activite-cards .card {
+    width: 100%;
     padding: 0;
 }
 
@@ -340,8 +351,8 @@ header nav a:hover {
 }
 
 .activite-cards h3 {
-    padding: 1.20rem 1.25rem;
-    margin: 0;
+    padding: 0 1.25rem 1.20rem 1.25rem;
+    margin: 1rem 0;
     font-size: 1rem;
 }
 
@@ -419,8 +430,16 @@ footer {
         font-size: 13px;
     }
 
+    .activite-cards .card {
+        height: 100%;
+    }
+
     .activite-cards img {
         height: 12rem;
+    }
+
+    .activite-cards h3 {
+        padding-bottom: 0;
     }
 }
 
@@ -533,6 +552,10 @@ footer {
         height: 7.5rem;
     }
 
+    .hebergements-cards a {
+        width: 96%;
+    }
+
     .hebergements-cards .card {
         width: 100%;
         margin-top: 0.9rem;
@@ -559,17 +582,22 @@ footer {
         flex-direction: column;
     }
 
+    .activite-cards a {
+        width: 100%;
+    }
+
     .activite-cards .card {
         width: 100%;
         margin-bottom: 0.9rem;
     }
 
     .activite-cards img {
-        height: 6rem;
+        height: 7rem;
     }
 
     .activite-cards h3 {
         font-size: 0.95rem;
+        padding-bottom: 1.20rem;
     }
 
     footer {
